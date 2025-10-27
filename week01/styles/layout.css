@@ -19,14 +19,14 @@ header {
 main {
     background-color: lightgray;
     grid-column: 1/3;
-    color: darkgray;
+    color: black;
     height: 200px;
 }
 
 aside {
     background-color: white;
     grid-column: 3/4;
-    color: darkgrey;
+    color: black;
     width: 250px;
     height: 200px;
 }
