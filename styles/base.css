@@ -1,0 +1,140 @@
+:root {
+    --main-font: "Ubuntu", sans-serif;
+    --main-back-color: navy;
+    --font-heading-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#course-title {
+    display: block;
+    padding: 0.8rem;
+    text-align: center;
+    font-family: var(--main-font);
+    background-color: var(--main-back-color);
+    color: var(--font-heading-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    font-family: var(--main-font);
+    background-color: rgb(45, 45, 45);
+}
+
+nav a {
+    display: block;
+    padding: 0.2rem;
+    text-decoration: none;
+    color: var(--font-heading-color);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    color: var(--font-heading-color);
+}
+
+h1 {
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    font-family: var(--main-font);
+}
+
+main {
+    width: 1090px;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+h2 {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 0.5rem;
+    background-color: var(--main-back-color);
+    font-family: var(--main-font);
+    color: var(--font-heading-color);
+    font-weight: 400;
+    text-align: center;
+}
+
+p {
+    font-family: var(--main-font);
+    font-weight: 300;
+    padding: .7rem;
+}
+
+h3 {
+    display: block;
+    width: 450px;
+    margin: .3rem;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    font-family: var(--main-font);
+}
+
+figure {
+    float: left;
+    margin: 0.2rem 0.5rem 0.2rem 0;
+}
+
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    background-color: var(--main-back-color);
+    color: var(--font-heading-color);
+    font-family: var(--main-font);
+}
+
+#lastModified {
+    margin: 0.2rem;
+    padding-top: 0.1rem;
+    font-size: 14px;
+}
+
+/* Class Selectors */
+
+.card {
+    display: block;
+    margin: 40px 0.5rem 0;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+.card img {
+    width: 120px;
+    float: right;
+    margin: 0.7rem;
+}
+
+.card ul {
+    margin: 3rem 1rem;
+    padding-left: 2rem;
+}
+
+.card li {
+    padding: 0.3rem;
+}
+
+.card a {
+    padding: 0.5rem;
+    font-family: var(--main-font);
+}
