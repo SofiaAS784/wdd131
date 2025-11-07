@@ -1,0 +1,107 @@
+:root {
+    --main-font: "Ubuntu", sans-serif;
+    --main-back-color: navy;
+    --font-heading-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    background-color: var(--main-back-color);
+    color: var(--font-heading-color);
+    font-size: 28px;
+    text-align: left;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: var(--main-font);
+    background-color: var(--main-back-color);
+}
+
+nav a {
+    display: none;
+    padding: 0.2rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--font-heading-color);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    color: var(--font-heading-color);
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 0.5rem;
+    text-align: center;
+    font-family: var(--main-font);
+}
+
+img {
+    padding: 0.2rem;
+    width: 250px;
+    height: auto;
+}
+
+figcaption {
+    padding: 0.2rem;
+    text-align: center;
+    font-family: var(--main-font);
+}
+
+footer {
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: var(--main-back-color);
+    color: var(--font-heading-color);
+    font-family: var(--main-font);
+}
+
+/* Class Selectors */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    place-items: center;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 0.5rem;
+    right: 1.2rem;
+}
+
+#menu::before {
+    content: "☰";
+    color: var(--font-heading-color);
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+.open a {
+    display: block;
+}

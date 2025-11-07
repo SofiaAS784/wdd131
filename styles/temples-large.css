@@ -1,0 +1,27 @@
+@media screen and (min-width: 520px) {
+    header h1 {
+        position: absolute;
+        left: 10px;
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        justify-content: end;
+        flex-direction: row;
+        padding: 0.8rem;
+        column-gap: 2rem;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+    }
+
+    #menu {
+        display: none;
+    }
+}

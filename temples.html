@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album - WDD131</title>
+    <meta name="description"
+        content="An example of how to create a dynamic web page using an hamburger menu and different views.">
+    <meta name="author" content="Sofia Angela Suarez">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/temple.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button type="button" id="menu"></button>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <div class="gallery">
+            <figure>
+                <img src="images/rome-temple.jpg" alt="Rome Italy Temple">
+                <figcaption>Rome, Italy</figcaption>
+            </figure>
+            <figure>
+                <img src="images/bern-temple.jpg" alt="Bern Switzerland Temple">
+                <figcaption>Bern, Switzerland</figcaption>
+            </figure>
+            <figure>
+                <img src="images/puebla-temple.jpg" alt="Puebla Mexico Temple">
+                <figcaption>Puebla, Mexico</figcaption>
+            </figure>
+            <figure>
+                <img src="images/bahia-blanca-temple.jpg" alt="Bahia Blanca Argentina Temple">
+                <figcaption>Bahia Blanca, Argentina</figcaption>
+            </figure>
+            <figure>
+                <img src="images/barranquilla-temple.jpg" alt="Barranquilla Colombia Temple">
+                <figcaption>Barranquilla, Colombia</figcaption>
+            </figure>
+            <figure>
+                <img src="images/madrid-temple.jpg" alt="Madrid Spain Temple">
+                <figcaption>Madrid, Spain</figcaption>
+            </figure>
+            <figure>
+                <img src="images/lima-los-olivos-temple.jpg" alt="Lima Los Olivos Peru Temple">
+                <figcaption>Lima Los Olivos, Peru</figcaption>
+            </figure>
+            <figure>
+                <img src="images/bsas-temple.jpg" alt="Buenos Aires Argentina Temple">
+                <figcaption>Buenos Aires, Argentina</figcaption>
+            </figure>
+            <figure>
+                <img src="images/san-diego-temple.jpg" alt="San Diego California Temple">
+                <figcaption>San Diego, California</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> | Sofia Angela Suarez | Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
