@@ -1,7 +1,7 @@
 :root {
     --main-font: "Ubuntu", sans-serif;
     --main-back-color: rgb(200, 0, 0);
-    --font-heading-color: #ffffff;
+    --font-heading-color: rgb(255, 255, 255);
 }
 
 * {
@@ -12,7 +12,7 @@
 
 header {
     padding: 1rem;
-    border-bottom: 0.8rem solid gray;
+    border-bottom: 0.8rem solid rgb(128, 128, 128);
     background-color: var(--main-back-color);
     color: var(--font-heading-color);
     font-size: 20px;
