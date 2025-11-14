@@ -1,0 +1,68 @@
+:root {
+    --main-font: "Ubuntu", sans-serif;
+    --main-back-color: rgb(200, 0, 0);
+    --font-heading-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 1rem;
+    border-bottom: 0.8rem solid gray;
+    background-color: var(--main-back-color);
+    color: var(--font-heading-color);
+    font-size: 20px;
+    text-align: center;
+    font-family: var(--main-font);
+}
+
+footer {
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: var(--main-back-color);
+    color: var(--font-heading-color);
+    font-family: var(--main-font);
+}
+
+/* Class Selectors */
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-bottom: 0.3rem solid rgb(200, 0, 0);
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    font-family: var(--main-font);
+}
+
+.info h2 {
+    padding: 0.8rem;
+    text-align: center;
+    grid-column: 1/3;
+}
+
+.info label {
+    padding: 0.3rem;
+    text-align: right;
+    font-weight: 600;
+}
+
+.info p {
+    padding: 0.3rem;
+    font-weight: 300;
+}
+
+.info img {
+    margin-bottom: 0.8rem;
+    grid-column: 1/3;
+    justify-self: center;
+}
