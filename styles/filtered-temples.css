@@ -1,0 +1,136 @@
+:root {
+    --main-font: "Ubuntu", sans-serif;
+    --main-back-color: #000080;
+    --font-heading-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header p {
+    padding: 0.5rem;
+    background-color: var(--main-back-color);
+    color: var(--font-heading-color);
+    font-size: 28px;
+    text-align: left;
+    font-family: var(--main-font);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: var(--main-font);
+    background-color: var(--main-back-color);
+}
+
+nav a {
+    display: none;
+    padding: 0.2rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--font-heading-color);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    color: var(--font-heading-color);
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 0.5rem;
+    text-align: center;
+    font-family: var(--main-font);
+}
+
+img {
+    margin: 0.4rem;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    padding: 0.2rem;
+    box-shadow: 0 0 30px rgb(142, 142, 142);
+    width: 250px;
+    height: auto;
+}
+
+section {
+    margin: 0.4rem;
+    padding: 1rem;
+    background-color: rgba(210, 210, 214, 1);
+    width: 300px;
+    height: auto;
+}
+
+h2 {
+    padding: 0.3rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section span {
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label {
+    padding: 0.1rem;
+    font-weight: 600;
+}
+
+p {
+    padding: 0.1rem;
+}
+
+footer {
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: var(--main-back-color);
+    color: var(--font-heading-color);
+    font-family: var(--main-font);
+}
+
+/* Class Selectors */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    place-items: center;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #ffffff;
+    position: absolute;
+    top: 0.5rem;
+    right: 1.2rem;
+}
+
+#menu::before {
+    content: "☰";
+    color: var(--font-heading-color);
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+.open a {
+    display: block;
+}
+
