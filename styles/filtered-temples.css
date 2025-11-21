@@ -1,7 +1,7 @@
 :root {
     --main-font: "Ubuntu", sans-serif;
-    --main-back-color: #000080;
-    --font-heading-color: #ffffff;
+    --main-back-color: rgb(0, 0, 128);
+    --font-heading-color: rgb(255, 255, 255);
 }
 
 * {
@@ -67,7 +67,7 @@ img {
 section {
     margin: 0.4rem;
     padding: 1rem;
-    background-color: rgba(210, 210, 214, 1);
+    background-color: rgb(210, 210, 214);
     width: 300px;
     height: auto;
 }
@@ -115,7 +115,7 @@ footer {
     font-size: 1.5rem;
     border: 0;
     background: none;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     position: absolute;
     top: 0.5rem;
     right: 1.2rem;
