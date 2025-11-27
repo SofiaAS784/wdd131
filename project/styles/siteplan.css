@@ -75,33 +75,33 @@ table {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-collapse: collapse;
     background-color: #bfebcd;
+}
 
-    th,
-    td {
-        padding: 0.5em 1rem;
-    }
+th,
+td {
+    padding: 0.5em 1rem;
+}
 
-    th {
-        font-family: var(--sub-headings-font);
-    }
+th {
+    font-family: var(--sub-headings-font);
+}
 
-    td {
-        font-family: var(--text-font);
-    }
+td {
+    font-family: var(--text-font);
+}
 
-    thead th,
-    tbody td {
-        text-align: center;
-    }
+thead th,
+tbody td {
+    text-align: center;
+}
 
-    thead {
-        color: #fff;
-        background: #00470e;
-    }
+thead {
+    color: #fff;
+    background: #00470e;
+}
 
-    tbody tr:nth-child(even) {
-        background-color: #ddf1de;
-    }
+tbody tr:nth-child(even) {
+    background-color: #ddf1de;
 }
 
 footer {
