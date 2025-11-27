@@ -125,6 +125,11 @@ footer p {
     font-size: 18px;
 }
 
+figcaption {
+    text-align: center;
+    font-family: var(--sub-headings-font);
+}
+
 /* Class Selectors */
 
 .logo img {
@@ -171,4 +176,14 @@ footer p {
 .example3 {
     font-family: var(--text-font);
     font-weight: 600;
+}
+
+.large img {
+    width: 480px;
+    margin-top: 1rem;
+}
+
+.mobile img {
+    width: 350px;
+    margin: 1.5rem 65px 0 65px;
 }
