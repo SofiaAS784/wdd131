@@ -1,0 +1,144 @@
+:root {
+    --main-font: "Ubuntu", sans-serif;
+    --main-back-color: navy;
+    --font-heading-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+    background-color: var(--main-back-color);
+}
+
+h1 {
+    padding: .8rem;
+    text-align: center;
+    font-family: var(--main-font);
+    color: white;
+}
+
+form {
+    width: auto;
+    max-width: 500px;
+    margin: .5rem auto;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #bdbaba;
+}
+
+label,
+div,
+p {
+    font-family: var(--main-font);
+}
+
+label,
+div,
+label {
+    margin-top: .7rem;
+}
+
+div p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+label p {
+    font-size: 12px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form select,
+form textarea {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 500px;
+    appearance: none;
+}
+
+form textarea {
+    height: 100px;
+    margin-bottom: .7rem;
+}
+
+form input[type="submit"] {
+    border: 1px solid gray;
+    background-image: rgb(99, 99, 99);
+    color: black;
+    border-radius: 3px;
+    padding: .8rem;
+    width: 100%;
+    max-width: 470px;
+    margin: 1rem auto .2rem auto;
+    box-shadow: 1px 1px 4px #999;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+footer {
+    display: block;
+    padding: .8rem;
+    text-align: center;
+    background-color: var(--main-back-color);
+    color: var(--font-heading-color);
+    font-family: var(--main-font);
+}
+
+#lastModified {
+    margin: 0.2rem;
+    padding-top: 0.1rem;
+    font-size: 14px;
+}
+
+/* Class Selectors */
+
+.options {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .7rem;
+}
+
+.options input[type="checkbox"] {
+    margin: .4rem 6px;
+    width: 20px;
+    height: 20px;
+}
+
+.rating {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: .7rem;
+}
+
+.rating div {
+    grid-column: 1/6;
+}
+
+.rating label {
+    display: inline-block;
+    text-align: center;
+}
+
+.rating label input[type="radio"]{
+    display: block;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+}
+
+.review {
+    color: black;
+    text-align: center;
+}
