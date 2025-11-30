@@ -30,11 +30,19 @@ const products = [
 let count = 1;
 products.forEach(product => {
     let productOption = document.createElement('option');
-    productOption.textContent = product.name.str.charAt(0).toUpperCase() + str.slice(1);
+    productOption.textContent = product.name;
     productOption.value = count;
     productSelect.appendChild(productOption);
     count++;
 });
 
 let numReviews = Number(window.localStorage.getItem("numReviews")) || 0;
+let reviewsDisplay = document.getElementByIdr('reviewsCount');
 
+if (numReviews > 0) {
+    reviewsDisplay.textContent = 'Number of reviews made in this session: ' + numReviews;
+}
+
+numReviews++;
+
+localStorage.setItem("numReviews", numReviews);
