@@ -1,0 +1,14 @@
+@media screen and (min-width: 520px) {
+    .rating {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin-bottom: .7rem;
+    }
+
+    .rating label {
+        text-align: center;
+    }
+        .rating label input[type="radio"] {
+            margin: auto;
+        }
+}

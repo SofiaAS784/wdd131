@@ -1,7 +1,7 @@
 :root {
     --main-font: "Ubuntu", sans-serif;
-    --main-back-color: navy;
-    --font-heading-color: white;
+    --main-back-color: #000080;
+    --font-heading-color: #ffffff;
 }
 
 * {
@@ -19,7 +19,7 @@ h1 {
     padding: .8rem;
     text-align: center;
     font-family: var(--main-font);
-    color: white;
+    color: #ffffff;
 }
 
 form {
@@ -73,9 +73,9 @@ form textarea {
 }
 
 form input[type="submit"] {
-    border: 1px solid gray;
-    background-image: rgb(99, 99, 99);
-    color: black;
+    border: 1px solid #808080;
+    background-color: #d2d2d2;
+    color: #000000;
     border-radius: 3px;
     padding: .8rem;
     width: 100%;
@@ -117,8 +117,8 @@ footer {
 }
 
 .rating {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     margin-bottom: .7rem;
 }
 
@@ -128,17 +128,15 @@ footer {
 
 .rating label {
     display: inline-block;
-    text-align: center;
 }
 
 .rating label input[type="radio"]{
     display: block;
-    margin: auto;
     width: 18px;
     height: 18px;
 }
 
 .review {
-    color: black;
+    color: #000000;
     text-align: center;
 }
