@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDP Hiking Adventures - Home</title>
+    <meta name="description" content="Welcome to our hiking website! Here you have a brief introduction to our company and important information.">
+    <meta name="author" content="Sofia Angela Suarez">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Rowdies:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <script src="scripts/home.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <source media="(min-width: 630px)" srcset="images/logo-home.svg" loading="lazy">
+            <img src="images/logo-title.svg" alt="MDP Hiking Adventures." loading="lazy">
+        </picture>
+        <button type="button" id="menu" aria-label="menu"></button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="about.html">Learn More</a></li>
+                <li><a href="join.html">Join Us!</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/hero-image-large.webp" loading="lazy">
+                <source media="(min-width: 500px)" srcset="images/hero-image-medium.webp" loading="lazy">
+                <img src="images/hero-image-small.webp" alt="Hills." width="500" loading="lazy">
+            </picture>
+            <h1>Take initiative and explore the region with us</h1>
+        </div>
+        <section class="banner">
+            <picture>
+                <source media="(min-width: 520px)" srcset="images/banner2.webp" loading="lazy">
+                <img src="images/banner1.webp" alt="A mountain design" loading="lazy">
+            </picture>
+            <h1>Find your next adventure!</h1>
+            <span id="animation"></span>
+        </section>
+        <article>
+            <h2>A little about us</h2>
+            <p>Welcome to MPD Hiking Adventures, your gateway to unforgettable outdoor experiences. Based in the beautiful coastal city
+            of Mar del Plata, our mission is to connect people with nature through guided hikes, scenic explorations, and safe
+            adventures in the surrounding hills. Whether you're a beginner looking for your first trail or an experienced explorer
+            seeking new challenges, our team is here to help you discover the best of our region's natural landscapes.</p>
+        </article>
+        <h1>Our trips!</h1>
+        <div class="info">
+            <section class="card">
+                <img src="images/hills-trip1.webp" alt="The Cerro de la Ventana" loading="lazy">
+                <h2>Cerro de la Ventana</h2>
+                <p>Cerro de la Ventana is one of the most iconic peaks in Buenos Aires Province, known for its distinctive natural “window”
+                carved into the rock near the summit. The trail offers panoramic views of the surrounding valleys and a unique
+                combination of rocky terrain and native vegetation. It's a rewarding challenge for hikers looking for a memorable and
+                scenic adventure.</p>
+            </section>
+            <section class="card">
+                <img src="images/hills-trip2.webp" alt="The hills of Tandil" loading="lazy">
+                <h2>Sierras de Tandil</h2>
+                <p>The Sierras de Tandil feature gentle rolling hills, granite formations, and tranquil natural spaces ideal for hikers of
+                all experience levels. Visitors can explore historic landmarks, lush trails, and scenic viewpoints that highlight the
+                region's charm. This area offers a perfect mix of outdoor exploration and cultural appeal.</p>
+            </section>
+            <section class="card">
+                <img src="images/hills-trip3.webp" alt="Sierras de los Padres" loading="lazy">
+                <h2>Sierras de los Padres</h2>
+                <p>Sierra de los Padres is a peaceful, green oasis located just minutes from Mar del Plata, known for its beautiful hills
+                and quiet forested paths. Its accessible trails make it an excellent destination for beginners, families, and anyone
+                looking for a relaxing walk in nature. This area combines natural beauty with cozy local businesses, creating a warm and
+                inviting atmosphere for visitors.</p>
+            </section>
+        </div>
+        <section class="banner">
+            <picture>
+                <source media="(min-width: 520px)" srcset="images/banner2.webp" loading="lazy">
+                <img src="images/banner1.webp" alt="A mountain design" loading="lazy">
+            </picture>
+            <h2>Do you want to be part of us?</h2>
+            <a href="join.html">Learn More</a>
+        </section>
+        <div class="form">
+            <form>
+                <legend>Sign up to receive all of our news</legend>
+                <label>Name: <input type="text" placeholder="e.g. John"></label>
+                <label>Email: <input type="email" placeholder="example@gmail.com"></label>
+                <input type="submit" value="Subscribe!">
+            </form>
+            <img src="images/hills-section.webp" alt="A landscape of hills and a river." loading="lazy">
+        </div>
+    </main>
+    <footer>
+        <p>©2025 | MPD Hiking Adventures | Sofia Angela Suarez</p>
+        <a href="https://facebook.com">
+            <img src="images/facebook-logo.png" alt="Facebook Icon" width="35" loading="lazy">
+        </a>
+        <a href="https://linkedin.com">
+            <img src="images/linkedin-logo.png" alt="LinkedIn Icon" width="35" loading="lazy">
+        </a>
+        <a href="https://instagram.com">
+            <img src="images/instagram-logo.png" alt="Instagram Icon" width="35" loading="lazy">
+        </a>
+    </footer>
+</body>
+
+</html>

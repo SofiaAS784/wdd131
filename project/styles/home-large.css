@@ -1,0 +1,101 @@
+@media screen and (min-width: 630px) {
+    :root {
+        --title-font: "Rowdies", sans-serif;
+        --sub-headings-font: "Alegreya Sans", sans-serif;
+        --text-font: "Alegreya", serif;
+        --main-back-color: #007e27;
+        --additional-color: #7d0000;
+        --background-color: #c6dcc5;
+        --font-heading-color: #ffffff;
+        --font-color: #002c09;
+        --background-color-2: #dddcdc;
+        --border-decoration: 7px solid var(--additional-color);
+    }
+
+    body {
+        max-width: 1600px;
+    }
+    
+    h3 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header img {
+        width: 100px;
+    }
+
+    nav {
+        align-content: center;
+        justify-content: end;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    nav a {
+        display: block;
+        margin-top: 17px;
+        background-color: var(--main-back-color);
+        font-size: 20px;
+    }
+
+    nav a:hover {
+        background-color: var(--main-back-color);
+    }
+
+    /* Class Selectors */
+
+    .hero img {
+        display: block;
+        height: auto;
+    }
+
+    .hero h1 {
+        font-size: 56px;
+        top: 100px;
+        left: 150px;
+    }
+    
+    .banner h1 {
+        font-size: 42px;
+        top: 60px;
+        left: 280px;
+    }
+
+    .banner h2 {
+        left: 180px;
+    }
+
+    .banner a {
+        right: 250px;
+    }
+
+    .card {
+        width: 350px;
+    }
+
+    .card img {
+        width: 350px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #animation {
+        font-size: 42px;
+        top: 65px;
+        left: 770px;
+    }
+}
