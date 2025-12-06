@@ -107,7 +107,7 @@ form {
     background-color: var(--additional-color);
 }
 
-form legend {
+form h2 {
     margin-bottom: .8rem;
     border-bottom: 3px solid var(--font-heading-color);
     padding-bottom: .3rem;
