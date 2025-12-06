@@ -159,7 +159,7 @@ footer {
     padding: 0.5rem;
     text-align: center;
     background-color: var(--main-back-color);
-    color: var(--font-heading-color);
+    color: var(--background-color-2);
     font-family: var(--main-font);
     font-weight: 600;
 }
